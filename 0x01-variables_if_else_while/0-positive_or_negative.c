@@ -6,7 +6,7 @@
 /**
  * main - Determine if a random number is positive, negative or zero.
  * Return: 0 on success
- * */
+ */
 int main(void)
 {
 	int n;
@@ -22,5 +22,5 @@ int main(void)
 	else
 	printf("%d is zero\n", n);
 	}
-	return 0;
+	return (0);
 }
