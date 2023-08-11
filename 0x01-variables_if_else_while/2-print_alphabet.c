@@ -8,7 +8,7 @@ int main(void)
 {
     char c='a';
 
-    while (c!=122)
+    while (c<=122)
     {
      putchar(c);
      c++;
