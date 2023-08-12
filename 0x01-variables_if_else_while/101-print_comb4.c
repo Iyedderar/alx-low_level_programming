@@ -5,9 +5,18 @@
 */
 int main (void)
 {
-	for (int i = '0'; i <= '9'; i++)
-		for (int j = i + 1; j <= '9'; j++)
-			for (int k = j + 1; k <= '9'; k++)
+	int i = '0';
+
+	int j, k;
+
+
+	for ( ; i <= '9'; i++)
+	{
+		j = i + 1;
+		for ( ; j <= '9'; j++)
+		{
+			k = j + 1;
+			for ( ; k <= '9'; k++)
 			{
 				putchar(i);
 				putchar(j);
@@ -17,6 +26,8 @@ int main (void)
 				putchar(',');
 				putchar(' ');
 			}
+		}
+	}
 	putchar('\n');
 	return (0);
 }
