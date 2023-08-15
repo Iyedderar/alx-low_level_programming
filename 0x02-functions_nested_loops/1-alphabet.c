@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * main - print the alphabet except e and q
- * Return: 0 on success
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
-void print_alphabet (void)
+
+void print_alphabet(void)
 {
 	char c;
 
