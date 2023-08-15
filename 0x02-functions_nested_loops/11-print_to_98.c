@@ -19,7 +19,7 @@ void add(int n)
         {
                 while(n >= 98)
                 {
-                        printf("%d, ", n);
+                        printf(n == 98 ? "%d" : "%d, ", n);
                         --n;
                 }
         }
