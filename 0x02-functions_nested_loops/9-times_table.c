@@ -22,12 +22,14 @@ void times_table(void)
 		putchar(',');
 		putchar(' ');
 	}
+	else{
 	putchar(('0' + i * j / 10) == '0' ? ' ' : '0' + i * j / 10);
 	putchar('0' + i * j % 10);
 	if (j == 9)
 		continue;
 	putchar(',');
 	putchar(' ');
+	}
 	}
 	putchar('\n');
 	}
