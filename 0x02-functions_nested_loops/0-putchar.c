@@ -1,10 +1,18 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * main - print the alphabet except e and q
  * Return: 0 on success
  */
 int main(void)
 {
-	printf("0-putchar.c");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
