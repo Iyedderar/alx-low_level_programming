@@ -3,7 +3,7 @@
  * main - print the alphabet except e and q
  * Return: 0 on success
  */
-int main(void)
+void print_alphabet (void)
 {
 	char c;
 
@@ -14,5 +14,4 @@ int main(void)
 	c++;
 	}
 	_putchar('\n');
-	return (0);
 }
