@@ -1,5 +1,5 @@
 #include"main.h"
-/** 
+/**
  * mul - checks for uppercase characters
  * Return: the product of the two argument
  * @c: first operand
@@ -8,6 +8,6 @@
 
 int mul(int c, int d)
 {
-	return (c*d);
+	return (c * d);
 }
 
