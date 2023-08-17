@@ -10,6 +10,11 @@ int main(void)
 
 	for ( ; i <= 100; i++)
 	{
+		if (i == 100)
+		{
+			printf("Buzz");
+			continue;
+		}
 		if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz ");
 		else
