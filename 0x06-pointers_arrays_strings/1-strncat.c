@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - Concatenates two strings 
+ * _strncat - Concatenates two strings
  * @dest: The destination string
  * @src: The source string
  * @n: The number of char from src to be added to dest.
