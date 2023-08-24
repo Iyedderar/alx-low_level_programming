@@ -11,7 +11,7 @@ char *cap_string(char *str)
 int i = 0, j = 0;
 	int po[] = {' ', '\t', '\n', 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-	if (str[i] >= 'a' && s[i] <= 'z')
+	if (str[i] >= 'a' && str[i] <= 'z')
 		str[i] -= 32;
 	i++;
 	while (str[i])
