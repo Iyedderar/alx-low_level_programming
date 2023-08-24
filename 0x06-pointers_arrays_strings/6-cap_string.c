@@ -8,8 +8,6 @@
 
 char *cap_string(char *str)
 {
-	int i = 0;
-
 	*str -= 32;
 	str++;
 	for ( ; *str; str++)
