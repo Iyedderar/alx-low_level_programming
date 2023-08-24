@@ -14,7 +14,7 @@ char *leet(char *str)
 
 	int codes[5] = {'4', '3', '0', '7', '1'};
 
-	while (s[i])
+	while (str[i])
 	{
 		for (j = 0; j < 5; j++)
 		{
@@ -26,5 +26,5 @@ char *leet(char *str)
 		}
 		i++;
 	}
-	return (s);
+	return (str);
 }
