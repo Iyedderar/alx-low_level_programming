@@ -5,7 +5,7 @@
  * @s: the string to check
  * @c: char to look for in s
  *
- * Return: ptr to first occurrence of c or null if not found
+ * Return: ptr to first occurrence of c or 0 if not found
  */
 
 char *_strchr(char *s, char c)
@@ -15,5 +15,5 @@ char *_strchr(char *s, char c)
 	for ( ; s[i]; i++)
 		if (s[i] == c)
 			return (s + i);
-	return (0);
+	return ('\0');
 }
