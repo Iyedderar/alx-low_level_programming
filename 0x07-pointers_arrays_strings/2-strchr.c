@@ -5,7 +5,8 @@
  * @s: the string to check
  * @c: char to look for in s
  *
- * Return: ptr to first occurrence of c or 0 if not found
+ * Return: If c is found - ptr to first occurrence of c
+ *		   If c isn't found - nullptr
  */
 
 char *_strchr(char *s, char c)
