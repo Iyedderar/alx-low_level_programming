@@ -4,5 +4,6 @@
 
 int _putchar(char);
 char *_memset(char *, char, unsigned int);
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *, char *, unsigned int);
+char *_strchr(char *, char);
 #endif /* MAIN_H */
