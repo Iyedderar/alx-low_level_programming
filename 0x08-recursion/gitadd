@@ -1,7 +1,7 @@
 #!/bin/bash
-echo 'Adding files'
+echo '--------------Adding files-------------'
 git add .
-echo ' WRITTING THE COMMIT '
+echo ' ---------WRITTING THE COMMIT---------- '
 git commit -m 'FML'
-echo ' PUSHING TO REMOTE '
+echo ' *********PUSHING TO REMOTE************* '
 git push 
