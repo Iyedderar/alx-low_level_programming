@@ -20,12 +20,12 @@ int prime_helper(int n, int s)
 }
 
 /**
- * is_prime  -  prime function recursion
+ * is_prime_number -  prime function recursion
  * @n: integer
  * Return: the result
  */
 
-int is_prime(int n)
+int is_prime_number(int n)
 {
 	int s = 0;
 
