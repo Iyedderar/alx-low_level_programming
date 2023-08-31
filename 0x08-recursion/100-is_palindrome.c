@@ -1,6 +1,26 @@
 #include "main.h"
 
 /**
+ * strleng - Returns the length of a string.
+ * @s: The string to be measured.
+ *
+ * Return: The length of the string.
+ */
+int strleng(char *s)
+{
+	int len = 0;
+
+	if (*(s + len))
+	{
+		len++;
+		len += strleng(s + len);
+	}
+
+	return (len);
+}
+
+
+/**
  * is_symmetric - Checks if a string is symteric.
  * @s: The str to be checked.
  * @len: The length.
@@ -28,12 +48,7 @@ int is_symmetric(char *s, int len)
  */
 int is_palindrome(char *s)
 {
-	int len = 0;
+	int len = strleng(s);
 
-	while (*s)
-	{
-		len++;
-		s++;
-	}
 	return (is_symmetric(s, len));
 }
