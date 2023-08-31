@@ -35,5 +35,5 @@ int is_palindrome(char *s)
 		len++;
 		s++;
 	}
-	return (is_symmetric(*s, len));
+	return (is_symmetric(s, len));
 }
