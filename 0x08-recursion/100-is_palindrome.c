@@ -14,7 +14,7 @@ int is_symmetric(char *s, int len)
 		return (1);
 
 	if (*s == *(s + (len - 1)))
-		return (1 && is_symmetric(*s, len - 2));
+		return (1 && is_symmetric(s + 1, len - 2));
 	else
 		return (0);
 }
