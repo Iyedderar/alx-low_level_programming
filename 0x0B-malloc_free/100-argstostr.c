@@ -25,10 +25,9 @@ char *argstostr(int ac, char **av)
 	{
 		for (j = 0; av[i][j]; j++)
 		{
-			f[n] = av[i][j];
-			n++;
+			f[n++] = av[i][j];
 		}
-		f[++n] = '\n';
+		f[n++] = '\n';
 	}
 	f[size + ac] = '\0';
 	return (f);
