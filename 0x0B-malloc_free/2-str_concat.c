@@ -16,8 +16,8 @@ char *str_concat(char *s1, char *s2)
 	int sz1, sz2;
 	int i;
 
-	sz1 = sizeof(s1);
-	sz2 = sizeof(s2);
+	sz1 = strlen(s1);
+	sz2 = strlen(s2);
 	if (s1 == NULL && s2 == NULL)
 		return (NULL);
 
