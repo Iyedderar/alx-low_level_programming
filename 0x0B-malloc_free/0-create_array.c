@@ -18,9 +18,8 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0 || f == NULL)
 		return (NULL);
-	for (; *f; i++)
-	{
-		*(f + i) = atoi(c);
-	}
+	for (; i < size; i++)
+		f[i] = c;
+
 	return (f);
 }
