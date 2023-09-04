@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	for (; *f; i++)
 	{
-		*(f + i) = c;
+		*(f + i) = atoi(c);
 	}
 	return (f);
 }
