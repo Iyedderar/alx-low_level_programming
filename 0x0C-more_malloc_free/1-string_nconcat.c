@@ -2,23 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int _strlen(char *s);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
-
-/**
- * _strlen - finds the length of a string
- * @s: the string
- *
- * Return: length of string
- */
-int _strlen(char *s)
-{
-	int n = 0, i;
-
-	for(i = 0; s[i]; i++)
-		n++;
-	return (n);
-}
 
 /**
  * string_nconcat -  function that concatenates two strings.
@@ -30,15 +14,16 @@ int _strlen(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *f;
-	unsigned int sz1, sz2, i;
+	unsigned int sz1 = 0, sz2 = 0, i;
 	
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	sz1 = _strlen(s1);
-	sz2 = _strlen(s2);
-	
+	for(i = 0; s1[i]; i++)
+		sz1++;
+	for(i = 0; s2[i]; i++)
+		sz2++;
 	if (n >= sz2)
 		n = sz2;
 	f = malloc(sizeof(char) * (sz1 + n + 1));
