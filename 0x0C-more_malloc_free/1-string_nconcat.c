@@ -50,5 +50,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (i = 0; i < n; i++)
 		f[i + sz1] = s2[i];
 	f[sz1 + n] = '\0';
-	return f;	
+	return (f);	
 }
