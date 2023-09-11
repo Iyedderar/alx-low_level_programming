@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * print_dog - a function to print dog infos .
  * @d: the dog variable.
