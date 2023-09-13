@@ -1,4 +1,5 @@
 #include "3-calc.h"
+#include <stdlib.h>
 /**
 * get_op_func - function to get operation.
 * @s: char to define operation.
