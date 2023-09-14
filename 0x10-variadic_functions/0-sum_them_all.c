@@ -4,7 +4,8 @@
  * sum_them_all - function to sum all arguments supplied.
  * @n: nbr of arguments.
  * @...: optional arguments.
- * Return: the sum otherwise 0.
+ * Return: the sum 
+ *        - if (n == 0) return 0
  */
 
 int sum_them_all(const unsigned int n, ...)
