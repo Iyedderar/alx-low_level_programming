@@ -4,17 +4,21 @@
  * sum_them_all - function to sum all arguments supplied.
  * @n: nbr of arguments.
  * @...: optional arguments.
- * Return: the sum .
+ * Return: the sum otherwise 0.
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list f;
-	unsigned int i, sum = 0;
+	unsigned int i;
+	int sum = 0;
 
 	va_start(f, n);
+
 	for (i = 0; i < n; i++)
 		sum += va_arg(f, int);
+
 	va_end(f);
+
 	return (sum);
 }
