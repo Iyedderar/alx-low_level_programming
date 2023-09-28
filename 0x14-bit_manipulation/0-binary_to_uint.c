@@ -23,6 +23,7 @@ unsigned int binary_to_uint(const char *b)
 	for (len -= 1; len >= 0; len--)
 	{
 		if (b[len] == '1')
+			num *= mult;
 			mult *= 2;
 	}
 	return (num);
