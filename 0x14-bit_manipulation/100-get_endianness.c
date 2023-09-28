@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * flip_bits - sets the value of a bit at a given index.
- * 
+ * get_endianness - get the type of the cpu.
+ *
  *
  * Return:- 1 if little indian.
  *        - 0 if big indian.
