@@ -5,7 +5,7 @@
  * @head: pointer to pointer to the head.
  * @n: parameter to be inserted.
  *
- * Return: the new node.
+ * Return: the new node or Null.
  */
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
