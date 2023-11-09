@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint - doubly linked list print
+ * get_dnodeint_at_index - doubly linked list print
  * @head: the head of the linked list
  * @index: index wanted.
  * Return: nbr of nodes in a linked list.
